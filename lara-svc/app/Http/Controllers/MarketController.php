@@ -1,10 +1,18 @@
 <?php
 
 namespace App\Http\Controllers;
-namespace App\gRPC\HelloRequest;
+
+use App\Http\Controllers\Controller;
+use App\gRPC\HelloRequest;
 
 class MarketController extends Controller
 {
+
+    public function __construct()
+    {
+
+    }
+
     public function greetUser()
     {
 
